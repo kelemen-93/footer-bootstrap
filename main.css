@@ -1,0 +1,31 @@
+/* === General Styles === */
+
+* {
+  box-sizing: border-box;
+}
+
+/* === Footer Styles === */
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.content {
+  background-color: crimson;
+  color: white;
+  height: 200px;
+}
+
+.footer {
+  background-color: skyblue;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
